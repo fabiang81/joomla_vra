@@ -49,6 +49,7 @@ jQuery(function ($) {
         var search_queries = searchitem + keyword + city + minsize + beds + baths;
 
         window.location = rooturl + 'index.php?option=com_spproperty&view=properties' + search_queries + menuid + '';
+        //window.location = rooturl + 'index.php?option=com_sppagebuilder&view=page' + search_queries + menuid + '';
         
         return false;
     });
@@ -117,10 +118,10 @@ jQuery(function ($) {
             max_price   = '&max_price=' + max_price;
         }
 
-        var search_queries = searchitem + keyword + city + minsize + maxsize + beds + baths + parking + zipcode + category + min_price + max_price;
+        var search_queries = keyword + city + minsize + maxsize + beds + baths + parking + zipcode + category + min_price + max_price;
 
         window.location = rooturl + 'index.php?option=com_spproperty&view=properties' + search_queries + menuid + '';
-
+        //window.location = rooturl + 'index.php?option=com_sppagebuilder&view=page&id=6' + search_queries + menuid + '';
         return false;
     });
 

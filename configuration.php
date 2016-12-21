@@ -45,7 +45,7 @@ class JConfig {
 	public $cachetime = '15';
 	public $cache_platformprefix = '0';
 	public $MetaDesc = 'Venta y renta de inmuebles en aguascalientes.';
-	public $MetaKeys = '';
+	public $MetaKeys = 'inmuebles, aguascalientes, venta, renta';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
 	public $MetaVersion = '0';

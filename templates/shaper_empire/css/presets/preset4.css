@@ -143,7 +143,8 @@ article.item.item-page .pager.pagenav li a:active,
 .sp-megamenu-parent > li.active > a,
 .sp-megamenu-parent > li:hover > a,
 .sp-megamenu-parent .sp-dropdown li.sp-menu-item > a:hover,
-.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active > a {
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active > a,
+.sppb-addon-accordion .sppb-panel.sppb-panel-info .sppb-panel-heading.active .sppb-panel-title {
   color: #f26522;
 }
 .sp-contact-info li.sp-contact-phone a,
@@ -189,8 +190,12 @@ article.item p.readmore a:active:after,
 .sp-comingsoon .days,
 .sp-comingsoon .minutes,
 .sp-comingsoon .seconds,
-.sp-comingsoon .hours {
+.sp-comingsoon .hours,
+.sppb-person-social-icons ul li a:hover {
   background: #f26522;
+}
+article.item.item-page .helix-social-share ul li a:hover {
+  background: #f26522 !important;
 }
 .sppb-addon.sppb-addon-persion .sppb-addon-content .sppb-person-image::before {
   background: rgba(242,101,34,0.8);
@@ -209,7 +214,8 @@ article.item p.readmore a:active:after,
   background: #d54d0d;
 }
 #sp-page-builder .empire-lets-talk .sppb-addon-ajax-contact .sppb-ajaxt-contact-form .sppb-form-group input:focus,
-#sp-page-builder .empire-lets-talk .sppb-addon-ajax-contact .sppb-ajaxt-contact-form .sppb-form-group textarea:focus {
+#sp-page-builder .empire-lets-talk .sppb-addon-ajax-contact .sppb-ajaxt-contact-form .sppb-form-group textarea:focus,
+#sp-page-builder .sppb-section.empire-newsletter .acymailing_module_form .acymailing_form input.inputbox:focus {
   border-color: #f26522;
 }
 #sp-footer ul.menu li a:hover,

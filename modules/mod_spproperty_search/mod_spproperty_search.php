@@ -29,7 +29,12 @@ $doc->addStylesheet( JURI::root(true) . '/components/com_spproperty/assets/css/s
 $doc->addScript( JURI::base(true) . '/modules/' .$module->module . '/assets/js/spproperty-search.js' );
 $doc->addStylesheet( JURI::root(true).'/modules/'.$module->module .'/assets/css/style.css' );
 
-$items 	= SppropertyModelProperties::getAllProperties($params);
+$getItems 	= SppropertyModelProperties::getAllProperties($params);
+$items = array();
+foreach($getItems as $element){
+    $hash = $element->city;
+    $items[$hash] = $element;
+}
 $cats 	= SppropertyModelProperties::getCategories();
 
 require JModuleHelper::getLayoutPath('mod_spproperty_search', $params->get('layout'));

@@ -103,7 +103,7 @@ $numerics   = array(1, 2, 3, 4, 5);
             </div>
         </form>	<!-- #spproperty-search -->
     </div><!--/.row-->
-    <div calss="row">
+    <div class="row">
         <div class="property-advance-search">
             <a href="#" data-toggle="modal" data-target=".sp-modal-lg"><i class="fa fa-plus-square"></i><span class="btn-text"><?php echo JText::_('MOD_SPPROPERTY_SEARCH_ADVANCED_SEARCH'); ?></span></a>
         </div>

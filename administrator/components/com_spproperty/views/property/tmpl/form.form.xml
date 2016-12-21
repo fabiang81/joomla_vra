@@ -104,12 +104,12 @@
 		</field>
 
 		<field name="property_status" type="list" label="COM_SPPROPERTY_FIELD_PROPERTY_STATUS" description="COM_SPPROPERTY_FIELD_PROPERTY_STATUS_DESC">
-			<option value="rent">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_RENT</option>
-			<option value="sell">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_SELL</option>
-			<option value="in_hold">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_HOLD</option>
-			<option value="pending">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_PENDING</option>
-			<option value="sold">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_SOLD</option>
-			<option value="under_offer">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_UNDER_OFFER</option>
+			<option value="renta">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_RENT</option>
+			<option value="venta">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_SELL</option>
+			<!--option value="en_espera">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_HOLD</option>
+			<option value="pendiente">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_PENDING</option>
+			<option value="vendida">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_SOLD</option>
+			<option value="bajo_oferta">COM_SPPROPERTY_FIELD_PROPERTY_STATUS_IN_UNDER_OFFER</option-->
 		</field>
 
 	</fieldset>
@@ -122,11 +122,19 @@
         	description="COM_SPPROPERTY_FIELD_COUNTRY_DESC"
         />
 
-        <field name="city"
+        <!--field name="city"
 			type="text"
 			label="COM_SPPROPERTY_FIELD_CITY"
 			size="50" 
-		/>
+		/-->
+
+		<field name="city" type="list" label="COM_SPPROPERTY_FIELD_CITY" description="COM_SPPROPERTY_FIELD_PROPERTY_ZONE_DESC">
+			<option value="centro">COM_SPPROPERTY_FIELD_PROPERTY_ZONE_CENTER</option>
+			<option value="norte">COM_SPPROPERTY_FIELD_PROPERTY_ZONE_NORTH</option>
+			<option value="sur">COM_SPPROPERTY_FIELD_PROPERTY_ZONE_SOUTH</option>
+			<option value="oriente">COM_SPPROPERTY_FIELD_PROPERTY_ZONE_EAST</option>
+			<option value="poniente">COM_SPPROPERTY_FIELD_PROPERTY_ZONE_WEST</option>
+		</field>
 
 		<field name="address" 
 			type="textarea"
